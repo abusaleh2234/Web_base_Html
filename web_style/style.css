@@ -119,10 +119,21 @@ input[type="password"]{
 
 /* Left big box */
 .box1 {
-  grid-row: 1 / 3;
+  grid-row: span 3;
 }
 
 /* Middle tall box */
 .box2 {
-  grid-row: 1 / 3;
+  grid-row: span 3;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 50px 50px;
+    gap: 10px;
+}
+.baxu{
+    background-color: aquamarine;
+    
 }
